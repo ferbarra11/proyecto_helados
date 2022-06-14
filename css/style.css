@@ -395,4 +395,106 @@ main {
 }
     
        
+/* ESTILOS PARA SABORES */
 
+.contain-sabores {
+    max-width: 1200px;
+    max-height: 0 auto;
+    align-items:center ;
+    
+}
+
+.contain-sabores .contain-sabores__encabezado {
+    display: inline;
+    max-width: fit-content;
+    align-items: center;
+    color:#ffeffe;
+
+}
+
+.encabezado__menu h1 {
+   
+}
+
+.encabezado__sabores {
+
+}
+
+.lista__sabores ul {
+    /* color:#03f7ebff ; */
+}
+
+.bases #leche{
+    color:#03f7ebff;
+    align-items:center;
+}
+
+.bases #agua{
+    color:rgb(247, 60, 3) ;
+}
+
+.bases #yogurt{
+    color:rgb(235, 229, 194) ;
+}
+
+.bases #alcohol{
+    color:#03f7ebff ;
+}
+
+
+
+.bases .bases__leche {
+    align-items:center;
+}
+
+.bases__leche {
+    display:flex;
+    align-items:center;
+    /* justify-content: space-around; */
+    padding: 2rem 0;
+    /* border-bottom: 2px solid rgb(208, 41, 91); */
+    background-image: url(../img/aquabricks.jpg);
+    background-size: cover;
+    /* max-width:66px;
+    min-height: auto; */
+    /* display:inline-block;
+    box-sizing:content-box;
+ */
+    
+}
+
+.leche__lista li{
+    display:inline-block;
+    flex-direction:column;
+    color: #f49f0a;
+}
+
+.bases__agua {
+    color:#00b295ff;
+    max-width:60px;
+    max-height: 75px;
+}
+
+.agua__lista li{
+    display:inline-flex;
+    flex-direction:column;
+    color: #7fbee1;
+}
+
+.bases__yogurt {
+    color:#73956fff ;
+    max-width:60px;
+    max-height: 75px;
+}
+.yogurt__lista {
+    color:#00b295ff;
+}
+.bases__alcohol {
+    color: #95d7aeff;
+    max-width:60px;
+    max-height: 75px;
+
+}
+.alcohol__lista {
+    color:#00b295ff;
+}
