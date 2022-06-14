@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css" rel="shortcut icon" href="./img/logoCono.png">
+    <link rel="stylesheet" href="../css/style1.css" rel="shortcut icon" href="../img/logoCono.png">
     <title>Provi | Sabores</title>
 </head>
 <body>
-    <header class="header">   
+    <header class="header">
+        <picture class="navigation__logo">
+            <img class="logo__img" src="../img/Logo1.png" alt="logotipo es un cono de helado">
+        </picture>
+        <!-- <a href="./index.html">
+        </a>    -->
         <nav class="header__navigation">
-            <picture class="navigation__logo">
-                <a href="../index.html">
-                    <img class="logo__img" src="../img/Logo1.png" alt="logotipo es un cono de helado">
-                </a>
-            </picture>  
             <ul class="menu">
                 <li class="menu__item">
                     <a class="menu__link" href="../index.html">Inicio</a>
@@ -34,69 +34,75 @@
             </ul>
         </nav>   
     </header>
-    <main class="cajita2">
-        <div class="cajita2__img">
-            <h1>Menú</h1>
+    <main class="contain-sabores">
+        <div class="contain-sabores__encabezado">
+            <h1 class="encabezado__menu">Menú</h1>
+            <h2 class="encabezado__sabores">Nuestros sabores:</h2>
         </div>   
-        <h2>Nuestros sabores:</h2>
-            <ul class="flaves">
-                <li class="cajita1">Base Leche:</li>
-                    <ul class="cajita2">
+        <section class="lista-sabores">
+            <ul class="bases">
+                <li id="leche" class="bases__leche">
+                    <h3>Base Leche:</h3>
+                    <ul class="leche__lista">
                         <li>Vainilla</li>
                         <li>Nuez</li>
                         <li>Coco</li>
                         <li>Chocolate</li>
                         <li>Cajeta</li>
                     </ul>
-                <li class="cajita1">Base Agua:</li>
-                    <ul class="cajita2">
+                </li>    
+                <li id="agua"  class="bases__agua">Base Agua:
+                    <ul class="agua__lista">
                         <li>Fresa</li>
                         <li>Limón</li>
                         <li>Mango</li>
                         <li>Maracuya</li>
                         <li>Jamaica</li>
-                    </ul>    
-                <li class="cajita1">Base Yoghurt:</li>
-                    <ul class="cajita2">
+                    </ul>
+                </li>        
+                <li id="yogurt"  class="bases__yogurt">Base Yoghurt:
+                    <ul class="yogurt__lista">
                         <li>Zarzamora</li>
                         <li>Arandano</li>
                         <li>Cereza</li>
                     </ul>
-                <li class="cajita1">Con alcohol:</li>
-                    <ul class="cajita2">
+                </li>    
+                <li id="alcohol"  class="bases__alcohol">Con alcohol:
+                    <ul class="alcohol__listas">
                         <li>Cerveza</li>
                         <li>Tequila</li>
                         <li>Jack Daniels</li>
                     </ul>
-                <li class="cajita1">Base Yoghurt:</li>
-                    <ul class="cajita2">
-                        <li>Zarzamora</li>
-                        <li>Arandano</li>
-                        <li>Cereza</li>
-                    </ul>
+                </li>    
             </ul>
+        </section>    
     </main>       
     <footer>
-        <picture>
-            <a href="https://www.instagram.com">
-                <img src="../img/InstaIcon.png"  alt="logotipo es un cono de helado">
-            </a>
-        </picture>
-        <picture>
-            <a href="https://www.twitter.com">
-                <img src="../img/twitterIcon.png"  alt="logotipo es un cono de helado">
-            </a>
-        </picture>
-        <picture>
-            <a khref="https://facebook.com">
-                <img src="../img/FaceIcon.png"  alt="logotipo es un cono de helado">
-            </a>
-        </picture>
-        <picture>
-            <a href="https://Whatsapp.com">
-                <img src="../img/WhastIcon.png"  alt="logotipo es un cono de helado">
-            </a>
-        </picture>    
+        <div class="contenedor">
+            <h2 class="contenedor__titulo">Visitanos</h2>
+        </div>
+        <div class="redes">
+            <picture class="redes__icon">
+                <a href="https://www.instagram.com">
+                    <img src="../img/InstaIcon.png"  alt="logotipo es un cono de helado">
+                </a>
+            </picture>
+            <picture class="redes__icon">
+                <a href="https://www.twitter.com">
+                    <img src="../img/twitterIcon.png"  alt="logotipo es un cono de helado">
+                </a>
+            </picture>
+            <picture class="redes__icon">
+                <a khref="https://facebook.com">
+                    <img src="../img/FaceIcon.png"  alt="logotipo es un cono de helado">
+                </a>
+            </picture>
+            <picture class="redes__icon">
+                <a href="https://Whatsapp.com">
+                    <img src="../img/WhastIcon.png"  alt="logotipo es un cono de helado">
+                </a>
+            </picture>
+        </div>        
     </footer>
 </body>
 </html>
