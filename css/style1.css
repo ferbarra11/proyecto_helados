@@ -35,6 +35,12 @@ img {
     width:100%;
 }
 
+
+
+li a:hover{
+    text-decoration:underline;
+}
+
 /* HEADER */
 
 header{
@@ -43,7 +49,8 @@ header{
     justify-content: space-around;
     padding: 2rem 0;
     border-bottom: 2px solid rgb(208, 41, 91);
-    background-image: url(../img/aquabricks.jpg);
+    /* background-image: url(../img/aquabricks.jpg); */
+    background-color: aquamarine;
     background-size: cover;
 }
 
@@ -186,7 +193,8 @@ footer {
     display: flex;
     /*background-image: url(../img/aquarelle.jpg);
     background-size:cover; */
-    background-color: #b6ffe6;
+    /* background-color: #b6ffe6; */
+    background-image: linear-gradient(to left,white, rgb(0, 255, 115),rgba(0, 0, 255, 0.781), violet, gray);
     justify-content: space-evenly;
     align-items:center;
     flex-flow:wrap;
@@ -224,6 +232,13 @@ footer picture a img {
   
 }
 
+
+
+
+
+.lista-sabores {
+    
+}
 
 
 /* MEDIA QUERIES */
@@ -322,3 +337,24 @@ footer picture a img {
     }
 }
  
+
+/* ANIMATION */
+
+header {
+    animation: pulse 9s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #bce4d4;
+    }
+
+    50% {
+        background-color:aqua;
+    } 
+
+    
+    100% {
+      background-color: aquamarine;
+    }
+  }
